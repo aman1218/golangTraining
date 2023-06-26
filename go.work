@@ -1,3 +1,7 @@
 go 1.20
 
-use ./002variables
+use (
+	./001hello
+	./002variables
+	./003userinput
+)
