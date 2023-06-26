@@ -16,9 +16,9 @@ func main() {
 	fmt.Println("your input is", input)
 	incinput, err := strconv.ParseFloat(strings.TrimSpace(input), 64)
 
-	if err != nil{
+	if err != nil {
 		fmt.Println(err)
-	}else{
+	} else {
 		fmt.Println("your incremented input is", incinput+1)
 	}
 }
