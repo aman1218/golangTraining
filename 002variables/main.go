@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+ var globalVar int = 50000;
+ const constVar string = "training";
+
 func main() {
 	var username string = "aman"
 	fmt.Println(username)
@@ -21,4 +24,8 @@ func main() {
 
 	noVarStyle := "hello"
 	fmt.Println(noVarStyle)
+
+	fmt.Println("\nthis is global variable", globalVar)
+
+	fmt.Println("\nthis is a constant variable", constVar)
 }
