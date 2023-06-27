@@ -7,4 +7,5 @@ use (
 	./004conversion
 	./005time
 	./006mypointer
+	./007arrays
 )
