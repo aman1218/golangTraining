@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
 func main() {
 
@@ -12,5 +15,20 @@ func main() {
 
 	myLists = append(myLists[2:7])
 	fmt.Println("slicing the slices:",myLists)
+
+	myMake := make([]int, 5)
+
+	myMake[0] = 555
+	myMake[1] = 444
+	myMake[2] = 999
+	myMake[3] = 333
+	myMake[4] = 111
+	fmt.Println("slice elements:", myMake)
+
+	myMake = append(myMake, 666, 875, 154, 625, 561)
+	fmt.Println("slice after appending:", myMake)
+
+	sort.Ints(myMake)
+	fmt.Println("after sorting:", myMake)
 
 }
