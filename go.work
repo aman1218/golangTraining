@@ -6,4 +6,5 @@ use (
 	./003userinput
 	./004conversion
 	./005time
+	./006mypointer
 )
