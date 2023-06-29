@@ -30,5 +30,9 @@ func main() {
 
 	sort.Ints(myMake)
 	fmt.Println("after sorting:", myMake)
+	
+	index := 2
+	myMake = append(myMake[:index], myMake[index+1:]...)
+	fmt.Println("after removing index 2:", myMake)
 
 }
