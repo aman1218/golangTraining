@@ -12,4 +12,6 @@ use (
 	./009mymaps
 	./010mystructs
 	./011myifelse
+	./012switchcase
+	./013loops
 )
