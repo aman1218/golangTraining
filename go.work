@@ -10,4 +10,5 @@ use (
 	./007arrays
 	./008myslices
 	./009mymaps
+	./010mystructs
 )
