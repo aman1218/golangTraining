@@ -9,4 +9,5 @@ use (
 	./006mypointer
 	./007arrays
 	./008myslices
+	./009mymaps
 )
