@@ -11,4 +11,5 @@ use (
 	./008myslices
 	./009mymaps
 	./010mystructs
+	./011myifelse
 )
