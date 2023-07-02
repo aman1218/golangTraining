@@ -15,4 +15,5 @@ use (
 	./012switchcase
 	./013loops
 	./014functions
+	./015methods
 )
