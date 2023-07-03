@@ -16,4 +16,7 @@ use (
 	./013loops
 	./014functions
 	./015methods
+	./016defer
+	./017files
+	./018webreq
 )
