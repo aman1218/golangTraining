@@ -20,5 +20,7 @@ use (
 	./017files
 	./018webreq
 	./019handelingURL
+	./020creatingServer
+	./021CRUDbasics
 	./025postSQL
 )
